@@ -1,4 +1,8 @@
 #!/bin/sh
+cd
+pwd
+ls -la
+
 export DEBIAN_FRONTEND=noninteractive
 DEBIAN_FRONTEND=noninteractive
 
