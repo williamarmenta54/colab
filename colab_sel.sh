@@ -14,6 +14,8 @@ apt update >/dev/null;apt -y install apt-utils psmisc libreadline-dev dialog aut
 
 sleep 2
 
+pip3 install selenium
+
 DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends tzdata > /dev/null
 
 sleep 2
