@@ -113,4 +113,6 @@ EOF
 
 sleep 2
 
+ls -la
+
 python3 run_selenium.py
